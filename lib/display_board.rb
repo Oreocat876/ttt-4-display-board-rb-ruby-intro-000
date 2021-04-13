@@ -1,4 +1,7 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-row 1 = ("   ", "|")
-puts row 1
+board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+def display_board(board)
+  puts board
+end 
+display_board(board)
